@@ -23,3 +23,4 @@ sxhkd &
 feh --bg-scale /home/kai/Downloads/wallpapers/nord-wallpaper.webp
 sudo pacman -Syu pipewire pipewire-alsa pipewire-pulse pipewire-jack &
 pactl set-sink-mute @DEFAULT_SINK@ 0
+xrandr --ouput eDP1 --mode 1920x1080 -r 60
